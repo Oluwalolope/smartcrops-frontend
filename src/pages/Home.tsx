@@ -73,7 +73,7 @@ const Home = () => {
           <p className="text-lg mb-6 opacity-90">
             Start making smarter irrigation decisions today
           </p>
-          <Link to="/dashboard" className="px-8 py-3 text-lg text-white bg-secondary hover:bg-secondary/90 h-10 rounded-md cursor-pointer has-[>svg]:px-4">Launch Dashboard</Link>
+          <Link to="/dashboard" className="px-8 py-3 text-lg text-primary bg-white hover:bg-white/90 h-10 rounded-md cursor-pointer has-[>svg]:px-4">Launch Dashboard</Link>
         </div>
       </section>
     </div>
