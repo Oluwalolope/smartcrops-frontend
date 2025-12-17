@@ -8,20 +8,17 @@ const DashBoard = lazy(() => import('./pages/Dashboard'));
 
 const router = createBrowserRouter([
   {
-    path: '*',
+    path: '/',
+    element: <HomePage />,
     errorElement: <NotFoundPage />,
-},
-{
-  path: '/',
-  element: <HomePage />,
-  errorElement: <NotFoundPage />,
-},
+  },
   {
     path: '/dashboard',
     element: 
     <Suspense fallback={<Loader />}>
       <DashBoard />
     </Suspense>,
+    errorElement: <NotFoundPage />,
   },
 ]);
 
