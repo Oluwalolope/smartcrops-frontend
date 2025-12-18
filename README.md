@@ -80,3 +80,5 @@ npm run dev
 ---
 
 SmartCrops – Empowering farmers with intelligence, not guesswork 🌾
+
+Link to Backend Repositiory [https://github.com/Shecodes-py/Smartcrops-Backend], due to some difficulties out of our control. we could not integrate the backend.
